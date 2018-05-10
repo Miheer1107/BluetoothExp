@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.berzerk.bluetoothexp.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/turnOn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Turn On"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/turnOff"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Turn Off"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get File"
+        android:id="@+id/getFile"/>
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No File Selected"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/buttonSend"/>
+
+</LinearLayout>
